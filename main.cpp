@@ -2,7 +2,7 @@
 
 int main() {
     // Tworzenie obiektu klasy Rectangle
-    Rectangle rect(10, 5);
+    Rectangle rect(6,7);
 
     // Wyświetlanie informacji o prostokącie
     rect.display();
