@@ -27,11 +27,11 @@ public:
         return height*width;
     }
     double perimeter()const{
-        return 2*(height*width);
+        return 2*(height+width);
     }
-    double display()const{
+    void display()const{
         cout<<"Rectangle:"<<width<<"x"<<height<<endl;
-        cout<<"Area:"<<area<<endl;
-        cout<<"Perimeter:"<<perimeter<<endl;
+        cout<<"Area:"<<area()<<endl;
+        cout<<"Perimeter:"<<perimeter()<<endl;
     }
 };
